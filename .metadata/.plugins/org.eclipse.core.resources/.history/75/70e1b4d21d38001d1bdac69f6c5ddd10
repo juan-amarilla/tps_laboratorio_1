@@ -1,0 +1,6 @@
+#ifndef LOSMENSAJES_H_
+#define LOSMENSAJES_H_
+
+void mensaje(char* informacion);
+
+#endif /* LOSMENSAJES_H_ */

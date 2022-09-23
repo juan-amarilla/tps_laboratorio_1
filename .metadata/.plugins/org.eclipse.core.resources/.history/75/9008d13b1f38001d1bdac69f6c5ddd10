@@ -1,0 +1,6 @@
+#include "Validaciones.h"
+
+void validarEntrada(int validacion)
+{
+
+}

@@ -1,0 +1,1348 @@
+10:16:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:94:46: warning: passing argument 2 of 'mensajePosicion' makes integer from pointer without a cast [-Wint-conversion]
+   94 |   mensajePosicion("Cantidad de arqueros ->", arquero);
+      |                                              ^~~~~~~
+      |                                              |
+      |                                              int *
+In file included from ..\src\Futbol.h:4,
+                 from ..\src\Futbol.c:1:
+..\src\LosMensajes.h:30:45: note: expected 'int' but argument is of type 'int *'
+   30 | void mensajePosicion(char* informacion, int posicion);
+      |                                         ~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:17:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:17:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:18:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:19:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:21:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:21:17 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:21:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:94:3: warning: implicit declaration of function 'mensajePosiocion'; did you mean 'mensajePosicion'? [-Wimplicit-function-declaration]
+   94 |   mensajePosiocion("hola", *arquero);
+      |   ^~~~~~~~~~~~~~~~
+      |   mensajePosicion
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:22:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:94:3: warning: implicit declaration of function 'mensajePosiocion'; did you mean 'mensajePosicion'? [-Wimplicit-function-declaration]
+   94 |   mensajePosiocion("Cantidad de arqueros ->", *arquero);
+      |   ^~~~~~~~~~~~~~~~
+      |   mensajePosicion
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+10:24:34 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:94:3: warning: implicit declaration of function 'mensajePosiocion'; did you mean 'mensajePosicion'? [-Wimplicit-function-declaration]
+   94 |   mensajePosiocion("Cantidad de arqueros ->", *arquero);
+      |   ^~~~~~~~~~~~~~~~
+      |   mensajePosicion
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:24:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:94:3: warning: implicit declaration of function 'mensajePosiocion'; did you mean 'mensajePosicion'? [-Wimplicit-function-declaration]
+   94 |   mensajePosiocion("Cantidad de arqueros ->", *arquero);
+      |   ^~~~~~~~~~~~~~~~
+      |   mensajePosicion
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:25:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:25:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:26:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:27:00 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Futbol.o: in function `ingresarJugador':
+C:\Users\franco\TP\TP_1\Debug/../src/Futbol.c:94: undefined reference to `mensajePosicion'
+collect2.exe: error: ld returned 1 exit status
+10:27:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:27:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:31:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+13:27:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:29:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'menuConfederacion':
+..\src\Futbol.c:176:11: error: invalid type argument of unary '*' (have 'int')
+  176 |   if(i == *opcion-1)
+      |           ^~~~~~~
+13:29:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:37:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:116:107: warning: passing argument 6 of 'ingresarJugador' from incompatible pointer type [-Wincompatible-pointer-types]
+  116 |     /*bien*/estado[2] = ingresarJugador(&numeroCamiseta, &arquero, &defensor, &mediocampista, &delantero, &confederacion, TAM);
+      |                                                                                                           ^~~~~~~~~~~~~~
+      |                                                                                                           |
+      |                                                                                                           int (*)[6]
+In file included from ..\src\TP_1.c:63:
+..\src\Futbol.h:27:111: note: expected 'int *' but argument is of type 'int (*)[6]'
+   27 | int ingresarJugador(int* numeroCamiseta, int* arquero, int* defensor, int* mediocampista, int* delantero, int confederacion[], int tam);
+      |                                                                                                           ~~~~^~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:37:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:41:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   73 |  int retorno;
+      |      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:43:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   73 |  int retorno;
+      |      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:45:00 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   73 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:47:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:96:52: error: 'TAM' undeclared (first use in this function)
+   96 |  retorno = inicializarConfederacion(confederacion, TAM);
+      |                                                    ^~~
+..\src\TP_1.c:96:52: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:74:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+13:47:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:74:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:48:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:82:6: warning: unused variable 'i' [-Wunused-variable]
+   82 |  int i;
+      |      ^
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:52:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:74:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:52:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:74:6: warning: unused variable 'retorno' [-Wunused-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'inicializarConfederacion':
+..\src\Futbol.c:175:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  175 |  return retorno;
+      |         ^~~~~~~
+..\src\Futbol.c:162:6: note: declared here
+  162 | void inicializarConfederacion(int confederacion[], int tam)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Futbol.c: In function 'inicializarCamiseta':
+..\src\Futbol.c:191:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  191 |  return retorno;
+      |         ^~~~~~~
+..\src\Futbol.c:178:6: note: declared here
+  178 | void inicializarCamiseta(int numeroCamiseta[], int tam)
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:53:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:54:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:90:41: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+   90 |    estado = utn_getNumero(numeroCamiseta[i], "Ingrese el numero de camiseta: \n", "Error, ingrese un numero valido de camiseta: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ~~~~~~~~~~~~~~^~~
+      |                                         |
+      |                                         int
+In file included from ..\src\Futbol.h:5,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:42:24: note: expected 'int *' but argument is of type 'int'
+   42 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:54:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:54:56 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:55:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:90:27: error: invalid type argument of unary '*' (have 'int')
+   90 |    estado = utn_getNumero(*numeroCamiseta[i], "Ingrese el numero de camiseta: \n", "Error, ingrese un numero valido de camiseta: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~~~
+13:55:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:90:41: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+   90 |    estado = utn_getNumero(numeroCamiseta[i], "Ingrese el numero de camiseta: \n", "Error, ingrese un numero valido de camiseta: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ~~~~~~~~~~~~~~^~~
+      |                                         |
+      |                                         int
+In file included from ..\src\Futbol.h:5,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:42:24: note: expected 'int *' but argument is of type 'int'
+   42 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+13:55:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:02:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:188:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  188 |  int retorno;
+      |      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:74:6: warning: unused variable 'retorno' [-Wunused-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:03:40 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:189:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  189 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:05:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:189:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  189 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:09:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:74:6: warning: unused variable 'retorno' [-Wunused-variable]
+   74 |  int retorno;
+      |      ^~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:09:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:11:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:14:56 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:00:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:05:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:67:27: warning: passing argument 7 of 'calculos' makes pointer from integer without a cast [-Wint-conversion]
+   67 | #define TAM_CONFEDERACION 6
+      |                           ^
+      |                           |
+      |                           int
+..\src\TP_1.c:127:121: note: in expansion of macro 'TAM_CONFEDERACION'
+  127 |     estado[3] = calculos(confederacion, &gastoHospedaje, &gastoComida, &gastoTransporte, &costoMantenimiento, &aumento, TAM_CONFEDERACION);
+      |                                                                                                                         ^~~~~~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:63:
+..\src\Futbol.h:35:154: note: expected 'float *' but argument is of type 'int'
+   35 | int calculos(int confederacion[], float promedio[], float* gastoHospedaje, float* gastoComida, float* gastoTransporte, float* costoMantenimiento, float* aumento, int tam);
+      |                                                                                                                                                   ~~~~~~~^~~~~~~
+..\src\TP_1.c:127:17: error: too few arguments to function 'calculos'
+  127 |     estado[3] = calculos(confederacion, &gastoHospedaje, &gastoComida, &gastoTransporte, &costoMantenimiento, &aumento, TAM_CONFEDERACION);
+      |                 ^~~~~~~~
+In file included from ..\src\TP_1.c:63:
+..\src\Futbol.h:35:5: note: declared here
+   35 | int calculos(int confederacion[], float promedio[], float* gastoHospedaje, float* gastoComida, float* gastoTransporte, float* costoMantenimiento, float* aumento, int tam);
+      |     ^~~~~~~~
+..\src\TP_1.c:87:8: warning: unused variable 'promedio' [-Wunused-variable]
+   87 |  float promedio[TAM_CONFEDERACION];
+      |        ^~~~~~~~
+18:06:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:07:17 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:07:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:11:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:11:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:13:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:15:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:16:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'calculos':
+..\src\Futbol.c:257:6: warning: unused variable 'mayor' [-Wunused-variable]
+  257 |  int mayor;
+      |      ^~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:18:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:20:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:22:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:26:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:30:33 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:34:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+10:01:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:193:27: warning: passing argument 1 of 'utn_getNumero' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |    estado = utn_getNumero(&camisetaElegida, "Ingrese el numero de camiseta no existente: \n", "Error, ingrese un numero valido de camiseta: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           |
+      |                           int **
+In file included from ..\src\Futbol.h:5,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:42:24: note: expected 'int *' but argument is of type 'int **'
+   42 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+..\src\Futbol.c:187:6: warning: variable 'estado' set but not used [-Wunused-but-set-variable]
+  187 |  int estado;
+      |      ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:01:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:193:27: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  193 |    estado = utn_getNumero(*camisetaElegida, "Ingrese el numero de camiseta no existente: \n", "Error, ingrese un numero valido de camiseta: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ..\src\Futbol.h:5,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:42:24: note: expected 'int *' but argument is of type 'int'
+   42 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+..\src\Futbol.c:187:6: warning: variable 'estado' set but not used [-Wunused-but-set-variable]
+  187 |  int estado;
+      |      ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:02:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:187:6: warning: variable 'estado' set but not used [-Wunused-but-set-variable]
+  187 |  int estado;
+      |      ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+10:03:40 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:04:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:08:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:08:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:09:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:11:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:13:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:14:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:23:17 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:27:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'calculos':
+..\src\Futbol.c:325:3: error: invalid type argument of unary '*' (have 'float')
+  325 |   *costoMantenimientoNuevo = *costoMantenimiento + *aumento;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+10:27:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+10:29:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:33:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:36:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:38:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:24: warning: initializer-string for array of chars is too long
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |                        ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:24: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:23: error: expected identifier or '(' before '{' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                       ^
+..\src\TP_1.c:91:45: error: expected expression before ',' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                                             ^
+..\src\TP_1.c:91:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |       ^~~~~~
+13:39:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:24: warning: initializer-string for array of chars is too long
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |                        ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:24: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:23: error: expected identifier or '(' before '{' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                       ^
+..\src\TP_1.c:91:45: error: expected expression before ',' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                                             ^
+..\src\TP_1.c:91:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |       ^~~~~~
+13:39:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:24: warning: initializer-string for array of chars is too long
+   90 |  char cadena[10][6] = {"-Porcentaje de AFC"},
+      |                        ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:24: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:23: error: expected identifier or '(' before '{' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                       ^
+..\src\TP_1.c:91:45: error: expected expression before ',' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                                             ^
+..\src\TP_1.c:91:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[10][6] = {"-Porcentaje de AFC"},
+      |       ^~~~~~
+13:40:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:24: warning: initializer-string for array of chars is too long
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |                        ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:24: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:23: error: expected identifier or '(' before '{' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                       ^
+..\src\TP_1.c:91:45: error: expected expression before ',' token
+   91 |                       {"-Porcentaje de CAF"},
+      |                                             ^
+..\src\TP_1.c:91:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[6][10] = {"-Porcentaje de AFC"},
+      |       ^~~~~~
+13:41:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:40: warning: initializer-string for array of chars is too long
+   90 |  char cadena[TAM_CONFEDERACION][10] = {"-Porcentaje de AFC"},
+      |                                        ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:40: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:39: error: expected identifier or '(' before '{' token
+   91 |                                       {"-Porcentaje de CAF"},
+      |                                       ^
+..\src\TP_1.c:91:61: error: expected expression before ',' token
+   91 |                                       {"-Porcentaje de CAF"},
+      |                                                             ^
+..\src\TP_1.c:91:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[TAM_CONFEDERACION][10] = {"-Porcentaje de AFC"},
+      |       ^~~~~~
+13:42:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:41: warning: initializer-string for array of chars is too long
+   90 |  char cadena[TAM_CONFEDERACION][10] = { {"-Porcentaje de AFC"},
+      |                                         ^
+..\src\TP_1.c:90:41: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:41: warning: initializer-string for array of chars is too long
+   91 |                                         {"-Porcentaje de CAF"},
+      |                                         ^
+..\src\TP_1.c:91:41: note: (near initialization for 'cadena[1]')
+..\src\TP_1.c:92:41: warning: initializer-string for array of chars is too long
+   92 |                                         {"-Porcentaje de CONCACAF"},
+      |                                         ^
+..\src\TP_1.c:92:41: note: (near initialization for 'cadena[2]')
+..\src\TP_1.c:93:41: warning: initializer-string for array of chars is too long
+   93 |                                         {"-Porcentaje de CONMEBOL"},
+      |                                         ^
+..\src\TP_1.c:93:41: note: (near initialization for 'cadena[3]')
+..\src\TP_1.c:94:41: warning: initializer-string for array of chars is too long
+   94 |                                         {"-Porcentaje de UEFA"},
+      |                                         ^
+..\src\TP_1.c:94:41: note: (near initialization for 'cadena[4]')
+..\src\TP_1.c:95:41: warning: initializer-string for array of chars is too long
+   95 |                                         {"-Porcentaje de OFC"} };
+      |                                         ^
+..\src\TP_1.c:95:41: note: (near initialization for 'cadena[5]')
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[TAM_CONFEDERACION][10] = { {"-Porcentaje de AFC"},
+      |       ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:42:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[TAM_CONFEDERACION][30] = { {"-Porcentaje de AFC"},
+      |       ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:44:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+..\src\LosMensajes.c: In function 'informeResultados':
+..\src\LosMensajes.c:28:22: warning: passing argument 1 of 'mensajeGasto' makes pointer from integer without a cast [-Wint-conversion]
+   28 |   mensajeGasto(cadena[i], promedio[i]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      char
+..\src\LosMensajes.c:9:25: note: expected 'char *' but argument is of type 'char'
+    9 | void mensajeGasto(char* informacion, float gasto)
+      |                   ~~~~~~^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:7: warning: unused variable 'cadena' [-Wunused-variable]
+   90 |  char cadena[TAM_CONFEDERACION][30] = { {"-Porcentaje de AFC"},
+      |       ^~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:44:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:46:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:139:35: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  139 |     estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                   ^~~~~~
+      |                                   |
+      |                                   char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:32:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   32 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:46:56 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+In file included from ..\src\Futbol.h:4,
+                 from ..\src\Futbol.c:1:
+..\src\LosMensajes.h:32:28: error: array type has incomplete element type 'char[]'
+   32 | int informeResultados(char cadena[][], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                            ^~~~~~
+..\src\LosMensajes.h:32:28: note: declaration of 'cadena' as multidimensional array must have bounds for all dimensions except the first
+13:47:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+In file included from ..\src\LosMensajes.c:1:
+..\src\LosMensajes.h:32:28: error: array type has incomplete element type 'char[]'
+   32 | int informeResultados(char cadena[][], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                            ^~~~~~
+..\src\LosMensajes.h:32:28: note: declaration of 'cadena' as multidimensional array must have bounds for all dimensions except the first
+..\src\LosMensajes.c:19:28: error: array type has incomplete element type 'char[]'
+   19 | int informeResultados(char cadena[][], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam)
+      |                            ^~~~~~
+..\src\LosMensajes.c:19:28: note: declaration of 'cadena' as multidimensional array must have bounds for all dimensions except the first
+13:47:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:139:35: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  139 |     estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                   ^~~~~~
+      |                                   |
+      |                                   char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:32:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   32 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:47:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:139:35: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  139 |     estado[4] = informeResultados(&cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                   ^~~~~~~
+      |                                   |
+      |                                   char (*)[6][30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:32:28: note: expected 'char *' but argument is of type 'char (*)[6][30]'
+   32 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:47:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:49:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:50:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:119:50: error: invalid type argument of unary '*' (have 'int')
+  119 |       mensajePosicion("Cantidad de arqueros ->", *arquero);
+      |                                                  ^~~~~~~~
+..\src\TP_1.c:120:49: error: invalid type argument of unary '*' (have 'int')
+  120 |    mensajePosicion("Cantidad de defensores ->", *defensor);
+      |                                                 ^~~~~~~~~
+..\src\TP_1.c:121:53: error: invalid type argument of unary '*' (have 'int')
+  121 |    mensajePosicion("Cantidad de mediocampistas ->", *mediocampista);
+      |                                                     ^~~~~~~~~~~~~~
+..\src\TP_1.c:122:49: error: invalid type argument of unary '*' (have 'int')
+  122 |    mensajePosicion("Cantidad de delanteros ->", *delantero);
+      |                                                 ^~~~~~~~~~
+13:50:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+13:51:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+13:55:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+13:59:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:00:13 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:01:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:06:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:07:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:148:43: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  148 |     /*bien*/estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                           ^~~~~~
+      |                                           |
+      |                                           char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:44:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   44 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:09:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:151:43: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  151 |     /*bien*/estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                           ^~~~~~
+      |                                           |
+      |                                           char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:44:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   44 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:10:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:153:46: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  153 |        /*bien*/estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                              ^~~~~~
+      |                                              |
+      |                                              char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:44:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   44 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:11:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:90:2: warning: braces around scalar initializer
+   90 |  char cadena[TAM_CONFEDERACION] = { {"-Porcentaje de AFC"},
+      |  ^~~~
+..\src\TP_1.c:90:2: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:90:38: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   90 |  char cadena[TAM_CONFEDERACION] = { {"-Porcentaje de AFC"},
+      |                                      ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:90:38: note: (near initialization for 'cadena[0]')
+..\src\TP_1.c:91:41: warning: braces around scalar initializer
+   91 |                                         {"-Porcentaje de CAF"},
+      |                                         ^
+..\src\TP_1.c:91:41: note: (near initialization for 'cadena[1]')
+..\src\TP_1.c:91:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   91 |                                         {"-Porcentaje de CAF"},
+      |                                          ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:91:42: note: (near initialization for 'cadena[1]')
+..\src\TP_1.c:92:41: warning: braces around scalar initializer
+   92 |                                         {"-Porcentaje de CONCACAF"},
+      |                                         ^
+..\src\TP_1.c:92:41: note: (near initialization for 'cadena[2]')
+..\src\TP_1.c:92:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   92 |                                         {"-Porcentaje de CONCACAF"},
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:92:42: note: (near initialization for 'cadena[2]')
+..\src\TP_1.c:93:41: warning: braces around scalar initializer
+   93 |                                         {"-Porcentaje de CONMEBOL"},
+      |                                         ^
+..\src\TP_1.c:93:41: note: (near initialization for 'cadena[3]')
+..\src\TP_1.c:93:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   93 |                                         {"-Porcentaje de CONMEBOL"},
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:93:42: note: (near initialization for 'cadena[3]')
+..\src\TP_1.c:94:41: warning: braces around scalar initializer
+   94 |                                         {"-Porcentaje de UEFA"},
+      |                                         ^
+..\src\TP_1.c:94:41: note: (near initialization for 'cadena[4]')
+..\src\TP_1.c:94:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   94 |                                         {"-Porcentaje de UEFA"},
+      |                                          ^~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:94:42: note: (near initialization for 'cadena[4]')
+..\src\TP_1.c:95:41: warning: braces around scalar initializer
+   95 |                                         {"-Porcentaje de OFC"} };
+      |                                         ^
+..\src\TP_1.c:95:41: note: (near initialization for 'cadena[5]')
+..\src\TP_1.c:95:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   95 |                                         {"-Porcentaje de OFC"} };
+      |                                          ^~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:95:42: note: (near initialization for 'cadena[5]')
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:11:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:153:46: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  153 |        /*bien*/estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                              ^~~~~~
+      |                                              |
+      |                                              char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:44:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   44 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:14:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Utn.o" "..\\src\\Utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IngresarDatos.o" "..\\src\\IngresarDatos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:153:46: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  153 |        /*bien*/estado[4] = informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                              ^~~~~~
+      |                                              |
+      |                                              char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:46:28: note: expected 'char *' but argument is of type 'char (*)[30]'
+   46 | int informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                       ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:17:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:153:34: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  153 |        /*bien*/informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:45:29: note: expected 'char *' but argument is of type 'char (*)[30]'
+   45 | void informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                        ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:18:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:153:34: warning: passing argument 1 of 'informeResultados' from incompatible pointer type [-Wincompatible-pointer-types]
+  153 |        /*bien*/informeResultados(cadena, promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  char (*)[30]
+In file included from ..\src\TP_1.c:62:
+..\src\LosMensajes.h:45:29: note: expected 'char *' but argument is of type 'char (*)[30]'
+   45 | void informeResultados(char cadena[], float promedio[], float costoMantenimiento, float aumento, float costoMantenimientoNuevo,  int tam);
+      |                        ~~~~~^~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:19:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:20:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:22:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:24:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:24:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:25:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:25:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:27:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:28:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:209:27: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  209 |    estado = utn_getNumero(*camisetaElegida, "Ingrese el numero de camiseta no existente entre 1 hasta 22: \n", "Error, ingrese un numero valido de camiseta entre 1 hasta 22: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ..\src\Futbol.h:7,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:44:24: note: expected 'int *' but argument is of type 'int'
+   44 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:28:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:209:27: warning: passing argument 1 of 'utn_getNumero' from incompatible pointer type [-Wincompatible-pointer-types]
+  209 |    estado = utn_getNumero(&camisetaElegida, "Ingrese el numero de camiseta no existente entre 1 hasta 22: \n", "Error, ingrese un numero valido de camiseta entre 1 hasta 22: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~
+      |                           |
+      |                           int **
+In file included from ..\src\Futbol.h:7,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:44:24: note: expected 'int *' but argument is of type 'int **'
+   44 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:28:49 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:30:30 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:32:20 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:208:27: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  208 |    estado = utn_getNumero(*(camisetaElegida), "Ingrese el numero de camiseta no existente entre 1 hasta 22: \n", "Error, ingrese un numero valido de camiseta entre 1 hasta 22: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ^~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ..\src\Futbol.h:7,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:44:24: note: expected 'int *' but argument is of type 'int'
+   44 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:32:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'validarCamiseta':
+..\src\Futbol.c:208:28: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  208 |    estado = utn_getNumero((*camisetaElegida), "Ingrese el numero de camiseta no existente entre 1 hasta 22: \n", "Error, ingrese un numero valido de camiseta entre 1 hasta 22: \n", MIN_JUGADOR, MAX_JUGADOR, INTENTOS_FUTBOL);
+      |                           ~^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int
+In file included from ..\src\Futbol.h:7,
+                 from ..\src\Futbol.c:1:
+..\src\Utn.h:44:24: note: expected 'int *' but argument is of type 'int'
+   44 | int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:32:33 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+14:34:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+14:36:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+..\src\Futbol.c: In function 'ingresarJugador':
+..\src\Futbol.c:96:57: error: expected ';' before 'numeroCamiseta'
+   96 |    validarCamiseta(numeroCamiseta, tamCamiseta, &elegir)
+      |                                                         ^
+      |                                                         ;
+   97 |    numeroCamiseta[i] = elegir;
+      |    ~~~~~~~~~~~~~~                                        
+14:36:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+17:06:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+..\src\LosMensajes.c: In function 'informeResultados':
+..\src\LosMensajes.c:24:2: error: variable-sized object may not be initialized
+   24 |  char confederacion[tam][31] = { {"-Porcentaje de AFC ->"},
+      |  ^~~~
+..\src\LosMensajes.c:24:34: warning: excess elements in array initializer
+   24 |  char confederacion[tam][31] = { {"-Porcentaje de AFC ->"},
+      |                                  ^
+..\src\LosMensajes.c:24:34: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:25:37: warning: excess elements in array initializer
+   25 |                                     {"-Porcentaje de CAF ->"},
+      |                                     ^
+..\src\LosMensajes.c:25:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:26:37: warning: excess elements in array initializer
+   26 |                                     {"-Porcentaje de CONCACAF ->"},
+      |                                     ^
+..\src\LosMensajes.c:26:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:27:37: warning: excess elements in array initializer
+   27 |                                     {"-Porcentaje de CONMEBOL ->"},
+      |                                     ^
+..\src\LosMensajes.c:27:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:28:37: warning: excess elements in array initializer
+   28 |                                     {"-Porcentaje de UEFA ->"},
+      |                                     ^
+..\src\LosMensajes.c:28:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:29:37: warning: excess elements in array initializer
+   29 |                                     {"-Porcentaje de OFC ->"} };
+      |                                     ^
+..\src\LosMensajes.c:29:37: note: (near initialization for 'confederacion')
+17:06:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:06:58 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+..\src\LosMensajes.c: In function 'informeResultados':
+..\src\LosMensajes.c:24:2: error: variable-sized object may not be initialized
+   24 |  char confederacion[tam][31] = { {"-Porcentaje de AFC ->"},
+      |  ^~~~
+..\src\LosMensajes.c:24:34: warning: excess elements in array initializer
+   24 |  char confederacion[tam][31] = { {"-Porcentaje de AFC ->"},
+      |                                  ^
+..\src\LosMensajes.c:24:34: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:25:37: warning: excess elements in array initializer
+   25 |                                     {"-Porcentaje de CAF ->"},
+      |                                     ^
+..\src\LosMensajes.c:25:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:26:37: warning: excess elements in array initializer
+   26 |                                     {"-Porcentaje de CONCACAF ->"},
+      |                                     ^
+..\src\LosMensajes.c:26:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:27:37: warning: excess elements in array initializer
+   27 |                                     {"-Porcentaje de CONMEBOL ->"},
+      |                                     ^
+..\src\LosMensajes.c:27:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:28:37: warning: excess elements in array initializer
+   28 |                                     {"-Porcentaje de UEFA ->"},
+      |                                     ^
+..\src\LosMensajes.c:28:37: note: (near initialization for 'confederacion')
+..\src\LosMensajes.c:29:37: warning: excess elements in array initializer
+   29 |                                     {"-Porcentaje de OFC ->"} };
+      |                                     ^
+..\src\LosMensajes.c:29:37: note: (near initialization for 'confederacion')
+17:07:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:07:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:08:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+17:11:00 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:14:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+17:14:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:24:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:27:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:29:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+17:36:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:46:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:47:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+17:48:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+18:00:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+18:02:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:04:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:11:32 **** Rebuild of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IngresarDatos.o" "..\\src\\IngresarDatos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Utn.o" "..\\src\\Utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LosMensajes.o" "..\\src\\LosMensajes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:13:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:30:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+18:31:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:32:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+18:33:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:39:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+18:43:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Futbol.o" "..\\src\\Futbol.c" 
+gcc -o TP_1.exe "src\\Futbol.o" "src\\IngresarDatos.o" "src\\LosMensajes.o" "src\\TP_1.o" "src\\Utn.o" "src\\Validaciones.o" 
+Info: Nothing to build for TP_1
