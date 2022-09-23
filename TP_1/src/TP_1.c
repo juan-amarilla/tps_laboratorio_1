@@ -90,6 +90,9 @@ int main(void)
 	gastoHospedaje = 0;
 	gastoComida = 0;
 	gastoTransporte = 0;
+	costoMantenimiento = 0;
+	aumento = 0;
+	costoMantenimientoNuevo = 0;
 
 	arquero = 0;
 	defensor = 0;

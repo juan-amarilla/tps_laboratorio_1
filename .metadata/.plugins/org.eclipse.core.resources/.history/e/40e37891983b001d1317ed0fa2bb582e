@@ -63,7 +63,7 @@
 #include "Futbol.h"
 #define MIN 1
 #define MAX 5
-#define INTENTOS 3
+#define INTENTOS 100
 #define TAM_CONFEDERACION 6
 #define TAM_JUGADORES 22
 
@@ -87,6 +87,7 @@ int main(void)
 	float costoMantenimientoNuevo;
 	float promedio[TAM_CONFEDERACION];
 
+	costoMantenimiento = 0;
 	gastoHospedaje = 0;
 	gastoComida = 0;
 	gastoTransporte = 0;
@@ -103,11 +104,20 @@ int main(void)
 
 	do
 	{
-		mensaje("1-Ingreso de los costos de mantenimiento. \n"
-				"2-Carga de jugadores. \n"
-				"3-Realizar todos los calculos. \n"
-				"4-Informar todos los resultados. \n"
-				"5-Salir. \n");
+		      mensaje("\n1-Ingreso de los costos de mantenimiento. \n");
+		 mensajeGasto("Gasto de hospedaje ->", gastoHospedaje);
+		 mensajeGasto("Gasto de comida ->", gastoComida);
+		 mensajeGasto("Gasto de transporte ->", gastoTransporte);
+
+		      mensaje("2-Carga de jugadores. \n");
+      mensajePosicion("Cantidad de arqueros ->", arquero);
+	  mensajePosicion("Cantidad de defensores ->", defensor);
+	  mensajePosicion("Cantidad de mediocampistas ->", mediocampista);
+	  mensajePosicion("Cantidad de delanteros ->", delantero);
+
+             mensaje("3-Realizar todos los calculos. \n"
+				     "4-Informar todos los resultados. \n"
+				     "5-Salir. \n");
 
 		estado[0] = utn_getNumero(&opcion, "Ingrese una opcion: \n", "Error, ingrese una opcion valida: \n", MIN, MAX, INTENTOS);
 
@@ -117,19 +127,35 @@ int main(void)
 			{
 
 			 case 1:
-			 /*bien*/estado[1] = ingresarGasto(&gastoHospedaje, &gastoComida, &gastoTransporte);
+			 estado[1] = ingresarGasto(&gastoHospedaje, &gastoComida, &gastoTransporte);
 			 break;
 
 			 case 2:
-			 /*bien*/estado[2] = ingresarJugador(numeroCamiseta, &arquero, &defensor, &mediocampista, &delantero, confederacion, TAM_CONFEDERACION, TAM_JUGADORES);
+			 estado[2] = ingresarJugador(numeroCamiseta, &arquero, &defensor, &mediocampista, &delantero, confederacion, TAM_CONFEDERACION, TAM_JUGADORES);
 			 break;
 
 			 case 3:
-			 /*bien*/estado[3] = calculos(confederacion, promedio, &gastoHospedaje, &gastoComida, &gastoTransporte, &costoMantenimiento, &aumento, &costoMantenimientoNuevo, TAM_CONFEDERACION);
+			 if(estado[1] == 1 && estado[2] == 1)
+			 {
+				estado[3] = calculos(confederacion, promedio, &gastoHospedaje, &gastoComida, &gastoTransporte, &costoMantenimiento, &aumento, &costoMantenimientoNuevo, TAM_CONFEDERACION);
+			 }
+
+			 else
+			 {
+				 mensaje("\nFaltan datos, por favor ingrese los datos restantes. \n");
+			 }
 			 break;
 
 			 case 4:
+			 if(estado[3] == 0 || estado[3] == 1)
+			 {
+			    informeResultados(promedio, costoMantenimiento, aumento, costoMantenimientoNuevo, TAM_CONFEDERACION);
+			 }
 
+			 else
+			 {
+			 	mensaje("\nFalta realizar el calculo, por favor realize el calculo. \n");
+			 }
 			 break;
 
 			 case 5:
