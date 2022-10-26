@@ -1,6 +1,0 @@
-#ifndef VALIDACIONES_H_
-#define VALIDACIONES_H_
-
-void validarEntrada(int validacion);
-
-#endif /* VALIDACIONES_H_ */
