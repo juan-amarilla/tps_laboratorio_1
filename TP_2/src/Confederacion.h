@@ -191,4 +191,14 @@ int bajaConfederacion(eConfederacion confederaciones[], int tamConfederacion);
  */
 int buscarConfederacion(eConfederacion confederaciones[], int tamConfederacion, int confederacionElegido);
 
+/**
+ * @fn int modificarConfederacion(eConfederacion[], int)
+ * @brief su funcion es modificar una confederacion
+ *
+ * @param eConfederacion confederaciones[]
+ * @param int tamConfederacion
+ * @return retorna 1 si salio bien o 0 si salio mal
+ */
+int modificarConfederacion(eConfederacion confederaciones[], int tamConfederacion);
+
 #endif /* CONFEDERACION_H_ */

@@ -214,7 +214,7 @@ int altaConfederacion(eConfederacion confederaciones[], int tamConfederacion, in
 		pedirEnteroValidado(cadena, "Ingrese el anio de creacion: \n", &confederaciones[indice].aniosCreacion);
 		while(confederaciones[indice].aniosCreacion < 1800)
 		{
-			pedirEnteroValidado(cadena, "Ingrese el anio de creacion mayor a 1800: \n", &confederaciones[indice].aniosCreacion);
+			pedirEnteroValidado(cadena, "Ingrese el anio de creacion mayor e igual a 1800: \n", &confederaciones[indice].aniosCreacion);
 		}
 
 		confederaciones[indice].isEmpty = OCUPADO;
@@ -362,7 +362,7 @@ int modificarConfederacion(eConfederacion confederaciones[], int tamConfederacio
                pedirEnteroValidado(cadena, "Ingrese el anio de creacion: \n", &confederaciones[indice].aniosCreacion);
 			   while(confederaciones[indice].aniosCreacion < 1800)
 			   {
-				  pedirEnteroValidado(cadena, "Ingrese el anio de creacion mayor a 1800: \n", &confederaciones[indice].aniosCreacion);
+				  pedirEnteroValidado(cadena, "Ingrese el anio de creacion mayor e igual a 1800: \n", &confederaciones[indice].aniosCreacion);
 			   }
 			   break;
 
